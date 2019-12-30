@@ -31,13 +31,13 @@ class Classifier:
 
 
 # example of usage
-if __name__ == "__main__":
-    X, y = datasets.load_iris(return_X_y=True)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
-    clf = Classifier('KNN')
-    clf.fit(X_train, y_train)
-    print(clf.predict(X_test))
-    print(clf.score(X_test, y_test))
+# if __name__ == "__main__":
+#     X, y = datasets.load_iris(return_X_y=True)
+#     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
+#     clf = Classifier('KNN')
+#     clf.fit(X_train, y_train)
+#     print(clf.predict(X_test))
+#     print(clf.score(X_test, y_test))
 
 
     
